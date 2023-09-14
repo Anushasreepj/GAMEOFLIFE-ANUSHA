@@ -7,8 +7,7 @@
     <groupId>org.game_of_life</groupId>
     <artifactId>Game-Of-Life</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>war</packaging> <!-- Change packaging to "war" -->
-
+<packaging>war</packaging>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/com.formdev/flatlaf -->
         <dependency>
@@ -22,19 +21,15 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
     </properties>
-
-    <build>
-        <plugins>
-            <!-- Add the Maven WAR plugin configuration -->
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-war-plugin</artifactId>
-                <version>3.4.1</version>
-                <configuration>
-                    <!-- Configuration for the WAR plugin, if needed -->
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
+<build>
+<plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>3.4.1-SNAPSHOT</version>
+ </plugin>
+    </plugins>
+</build>
 
 </project>
+
