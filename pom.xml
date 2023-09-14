@@ -33,6 +33,7 @@
                 <artifactId>maven-war-plugin</artifactId>
                 <version>3.3.2</version> <!-- Use the latest version -->
                 <configuration>
+                  <webXml>src\main\webapp\WEB-INF\web.xml</webXml>
                     <failOnMissingWebXml>false</failOnMissingWebXml> <!-- If you don't have a web.xml file -->
                 </configuration>
             </plugin>
